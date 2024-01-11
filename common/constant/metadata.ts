@@ -12,5 +12,5 @@ export const METADATA = {
     locale: 'id-ID'
   },
   exTitle: '| Kris Kurniawan',
-  profile: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/c_crop,g_auto,h_500,w_500/dotst8mkwvrlylku0zs8.jpg'
+  profile: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1702940643/projects/pux2za5mfm18sbs3snw0.png'
 }

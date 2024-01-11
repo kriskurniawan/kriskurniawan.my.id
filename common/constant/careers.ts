@@ -35,7 +35,7 @@ export const CAREERS = [
   {
     position: 'Full-Stack Web Developer',
     company: 'Nanotech',
-    logo: 'https://jastip.nanotechmkw.id/web/img/logo_nanotech.png',
+    logo: 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1705012916/kris-store/gpyjjrev9pcfvb3yrfkk.png',
     location: 'Manokwari, Papua Barat',
     location_type: 'Hybrid',
     type: 'Parttime',

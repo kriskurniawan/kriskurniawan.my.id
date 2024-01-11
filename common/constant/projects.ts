@@ -2,6 +2,30 @@ import { IProjectItem } from '../types/projects'
 
 export const PROJECTS: IProjectItem[] = [
   {
+    id: 8,
+    title: 'Kris Store',
+    slug: 'kris-store',
+    description: "eCommerce Template built with Next.Js and Tailwind CSS based on Figma Community Design, fully responsive ( https://www.figma.com/file/yuxyGBsdwKSZ9jzYkNhQ9I/Figma-ecommerce-UI-Kit-(web-%26-mobile)-(Community) ).",
+    image: 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1705013781/kris-store/mxa4ybv40sui5swzayto.png',
+    link_demo: 'https://kris-store.vercel.app/',
+    link_github: 'https://github.com/kriskurniawan/kris-store',
+    stacks: ['Next.js', 'TailwindCSS', 'TypeScript'],
+    is_show: true,
+    is_featured: true
+  },
+  {
+    id: 7,
+    title: 'KrisCommerce Template',
+    slug: 'kriscommerce-template',
+    description: "eCommerce Template built with Next.Js and Tailwind CSS based on Figma Community Design ( Electon - https://www.figma.com/file/BdcRd5HaNmHsKmronOVfyX/e-commerce-(Community) ).",
+    image: 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1705013359/kris-store/vpztekyej2rf4fdio1m4.png',
+    link_demo: 'https://kriscommerce-template.vercel.app/',
+    link_github: 'https://github.com/kriskurniawan/kriscommerce-template',
+    stacks: ['Next.js', 'TailwindCSS', 'TypeScript'],
+    is_show: true,
+    is_featured: false
+  },
+  {
     id: 6,
     title: 'Nanojastip',
     slug: 'nanojastip',

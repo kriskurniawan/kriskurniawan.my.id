@@ -18,9 +18,8 @@ export default function CareerList() {
         <SectionSubHeading>
           <p className="dark:text-neutral-400">My career journey.</p>
           <Link
-            // href={RESUME_URL}
-            href=""
-            // target="_blank"
+            href={RESUME_URL}
+            target="_blank"
             passHref
             className="flex gap-2 transition-all duration-300 items-center text-neutral-600 dark:text-neutral-500 hover:text-neutral-700 hover:dark:text-neutral-300"
             data-umami-event="Download Resume"

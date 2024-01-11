@@ -19,9 +19,7 @@ export default function Introduction() {
           </li>
         </ul>
         <p className="leading-[1.8] md:leading-loose text-neutral-800 dark:text-neutral-300">
-          Passionate and seasoned Software Engineer with a strong focus on backend and frontend development. Proficient in
-          PHP, JavaScript and well-versed in all aspects of web technologies. Collaborative team player dedicated to
-          delivering efficient, scalable, and visually appealing web applications.
+          Dedicated Software Engineer with expertise in both backend and frontend, adept in PHP & JavaScript, eager to contribute to the Between team with a commitment to crafting scalable and engaging web solutions.
         </p>
       </div>
     </section>
