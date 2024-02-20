@@ -5,4 +5,4 @@ export const PAGESPEED_CATEGORIES = '&category=accessibility&category=performanc
 export const PROFILE_URL = 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1702099999/k0oi9bbtgy7yqm8i8ptz.jpg'
 export const BACKDROP_IMAGE = 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1705014322/kris-store/yguyx5uboovfwjybybuw.webp'
 
-export const RESUME_URL = 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1705013786/kris-store/gnabp9j48kult9hgwntl.png'
+export const RESUME_URL = 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1708395446/b6wydqapddglc5mifoub.png'
