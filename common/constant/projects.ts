@@ -2,6 +2,18 @@ import { IProjectItem } from '../types/projects'
 
 export const PROJECTS: IProjectItem[] = [
   {
+    id: 9,
+    title: 'Hekku Top Up',
+    slug: 'hekku-top-up',
+    description: "Top Up Game built with Next.Js and Tailwind CSS.",
+    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1708395855/projects/rf9xxuzq2xy6w3r03bku.png',
+    link_demo: null,
+    link_github: null,
+    stacks: ['Next.js', 'TailwindCSS', 'TypeScript', 'Laravel'],
+    is_show: true,
+    is_featured: true
+  },
+  {
     id: 8,
     title: 'Kris Store',
     slug: 'kris-store',
