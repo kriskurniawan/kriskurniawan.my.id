@@ -2,7 +2,7 @@ export const CAREERS = [
   {
     position: 'Administration',
     company: 'PT. Medco Papua Hijau Selaras',
-    logo: 'https://media.licdn.com/dms/image/C560BAQF9QCGKwk-GeQ/company-logo_100_100/0/1634544266541/medco_agro_logo?e=1709164800&v=beta&t=T_Uy9ZHVUTVg_MsqlY_iHmhqzIb0nSvJFiY7KqMhdaE',
+    logo: 'https://media.licdn.com/dms/image/sync/D5627AQEECQKXvD7JRw/articleshare-shrink_800/0/1710090466295?e=1711591200&v=beta&t=Zm7KmeF0nfSNNuWffWdBrqh6oS4SWudwKly_0MlV8vU',
     location: 'Manokwari, Papua Barat',
     location_type: 'On Site',
     type: 'Fulltime',
@@ -13,7 +13,7 @@ export const CAREERS = [
   {
     position: 'Field Supervisor',
     company: 'PT. Medco Papua Hijau Selaras',
-    logo: 'https://media.licdn.com/dms/image/C560BAQF9QCGKwk-GeQ/company-logo_100_100/0/1634544266541/medco_agro_logo?e=1709164800&v=beta&t=T_Uy9ZHVUTVg_MsqlY_iHmhqzIb0nSvJFiY7KqMhdaE',
+    logo: 'https://media.licdn.com/dms/image/sync/D5627AQEECQKXvD7JRw/articleshare-shrink_800/0/1710090466295?e=1711591200&v=beta&t=Zm7KmeF0nfSNNuWffWdBrqh6oS4SWudwKly_0MlV8vU',
     location: 'Manokwari, Papua Barat',
     location_type: 'On Site',
     type: 'Fulltime',

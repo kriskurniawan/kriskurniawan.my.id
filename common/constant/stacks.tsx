@@ -33,6 +33,7 @@ import {
   SiVuedotjs,
   SiLaravel,
   SiMysql,
+  SiCodeigniter,
 } from 'react-icons/si'
 
 type stacksProps = {
@@ -77,4 +78,5 @@ export const STACKS: stacksProps = {
   'React Router': <SiReactrouter size={iconSize} className="text-pink-500" />,
   'React Hook Form': <SiReacthookform size={iconSize} className="text-pink-500" />,
   // 'React Table': <SiReacttable size={iconSize} className="text-rose-600" />
+  'CodeIgniter': <SiCodeigniter size={iconSize} className="text-blue-500" />,
 }

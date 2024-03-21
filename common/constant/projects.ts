@@ -2,6 +2,18 @@ import { IProjectItem } from '../types/projects'
 
 export const PROJECTS: IProjectItem[] = [
   {
+    id: 10,
+    title: 'Kantor Regional XIV Manokwari',
+    slug: 'kanreg-xiv-manokwari',
+    description: "Kantor Regional XIV Manokwari, a regional government agency in the state of Papua Barat. Built with CodeIgniter and Tailwind CSS.",
+    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1710984623/projects/wgyxlfxenvefwpjtqdsk.png',
+    link_demo: null,
+    link_github: null,
+    stacks: ['CodeIgniter', 'TailwindCSS', 'PHP', 'JavaScript'],
+    is_show: true,
+    is_featured: false
+  },
+  {
     id: 9,
     title: 'Hekku Top Up',
     slug: 'hekku-top-up',
@@ -9,7 +21,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1708395855/projects/rf9xxuzq2xy6w3r03bku.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Next.js', 'TailwindCSS', 'TypeScript', 'Laravel'],
+    stacks: ['Next.js', 'TailwindCSS', 'TypeScript', 'Laravel',],
     is_show: true,
     is_featured: true
   },
@@ -45,7 +57,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700894594/projects/q5rzqzbzeof9uqe6nlxh.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'Bootstrap'],
+    stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap'],
     is_show: true,
     is_featured: false
   },
@@ -57,7 +69,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700894403/projects/hbcvpzcopbd3kcfsh01x.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'Bootstrap'],
+    stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap'],
     is_show: true,
     is_featured: false
   },
@@ -69,7 +81,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700894085/projects/i578wlaiqxohmmwkrz2s.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'Bootstrap'],
+    stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap'],
     is_show: true,
     is_featured: false
   },
@@ -81,7 +93,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700893686/projects/ssqkj5aleq4eq4lz7zmz.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'Bootstrap'],
+    stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap'],
     is_show: true,
     is_featured: false
   },
@@ -93,7 +105,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700892568/projects/anbhgdczyszgaj3sk2jy.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'Bootstrap'],
+    stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap'],
     is_show: true,
     is_featured: false
   },
@@ -105,7 +117,7 @@ export const PROJECTS: IProjectItem[] = [
     image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700881080/projects/y6jlsaeppbkbqxi1isdd.png',
     link_demo: null,
     link_github: null,
-    stacks: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'Bootstrap'],
+    stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap'],
     is_show: true,
     is_featured: false
   }
