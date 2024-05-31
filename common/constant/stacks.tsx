@@ -1,40 +1,28 @@
-import { BiLogoPostgresql } from 'react-icons/bi'
-import { BsFillBootstrapFill } from 'react-icons/bs'
+import { BiLogoPostgresql } from 'react-icons/bi';
+import { BsFillBootstrapFill } from 'react-icons/bs';
 import {
-  SiChakraui,
   SiCss3,
-  SiExpo,
   SiExpress,
   SiFirebase,
-  SiFramer,
   SiGithub,
-  SiGraphql,
-  SiGulp,
   SiHtml5,
   SiJavascript,
-  SiJest,
-  SiMui,
   SiNextdotjs,
   SiNodedotjs,
-  SiNuxtdotjs,
   SiPhp,
   SiPrisma,
   SiReact,
   SiReacthookform,
   SiReactquery,
   SiReactrouter,
-  SiReacttable,
-  SiRedux,
-  SiSass,
-  SiStorybook,
   SiTailwindcss,
   SiTypescript,
   SiVite,
-  SiVuedotjs,
   SiLaravel,
   SiMysql,
   SiCodeigniter,
-} from 'react-icons/si'
+  SiReacttable,
+} from 'react-icons/si';
 
 type stacksProps = {
   [key: string]: JSX.Element
@@ -77,6 +65,7 @@ export const STACKS: stacksProps = {
   // Storybook: <SiStorybook size={iconSize} className="text-pink-500" />,
   'React Router': <SiReactrouter size={iconSize} className="text-pink-500" />,
   'React Hook Form': <SiReacthookform size={iconSize} className="text-pink-500" />,
-  // 'React Table': <SiReacttable size={iconSize} className="text-rose-600" />
+  'React Table': <SiReacttable size={iconSize} className="text-rose-600" />,
   'CodeIgniter': <SiCodeigniter size={iconSize} className="text-blue-500" />,
+  'Firebase': <SiFirebase size={iconSize} className="text-yellow-500" />,
 }

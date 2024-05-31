@@ -1,14 +1,12 @@
 import Link from 'next/link'
 
-import React from 'react'
-
 import Card from '@/common/components/elements/Card'
 import Image from '@/common/components/elements/Image'
 import Tooltip from '@/common/components/elements/Tooltip'
 import { STACKS } from '@/common/constant/stacks'
 import { IProjectItem } from '@/common/types/projects'
 
-export default function ProjectCard({ title, slug, description, image, stacks, is_featured }: IProjectItem) {
+export default function ProjectCard({ title, slug, description, image, stacks, is_featured, is_own, is_other }: IProjectItem) {
   const trimmedContent = description.slice(0, 70) + (description.length > 70 ? '...' : '')
   return (
     <Link href={`/projects/${slug}`}>
@@ -16,6 +14,16 @@ export default function ProjectCard({ title, slug, description, image, stacks, i
         {is_featured && (
           <div className="absolute top-0 right-0 bg-emerald-300 text-emerald-950 text-[13px] font-medium py-1 px-2 rounded-bl-xl rounded-tr-xl z-[2]">
             Featured
+          </div>
+        )}
+        {is_own && (
+          <div className="absolute top-0 left-0 bg-cyan-300 text-cyan-950 text-[13px] font-medium py-1 px-2 rounded-br-xl rounded-tl-xl z-[2]">
+            Own Project
+          </div>
+        )}
+        {is_other && (
+          <div className="absolute top-0 right-0 bg-pink-300 text-pink-950 text-[13px] font-medium py-1 px-2 rounded-bl-xl rounded-tr-xl z-[2]">
+            Other Project
           </div>
         )}
         <Image

@@ -42,5 +42,16 @@ export const CAREERS = [
     start_date: '2021-02',
     end_date: null,
     link: 'https://nanotechmkw.id'
+  },
+  {
+    position: 'Software Engineer',
+    company: 'Nanojastip',
+    logo: 'https://nanojastip.com/storage/web-settings/AsvCmlkJKS3x1X77CZj1.png',
+    location: 'Manokwari, Papua Barat',
+    location_type: 'Hybrid',
+    type: 'Parttime',
+    start_date: '2023-11',
+    end_date: null,
+    link: 'https://nanojastip.com'
   }
 ]

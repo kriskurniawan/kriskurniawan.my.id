@@ -10,6 +10,8 @@ export interface IProjectItem {
   content?: string | null
   is_show: boolean
   is_featured: boolean
+  is_own?: boolean
+  is_other?: boolean
 }
 
 export interface IProjectsItemProps {

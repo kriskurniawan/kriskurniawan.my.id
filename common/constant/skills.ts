@@ -22,5 +22,7 @@ export const SKILLS = [
   'HTML',
   'CSS',
   'Laravel',
-  'CodeIgniter'
+  'CodeIgniter',
+  'Firebase',
+  'React.js'
 ]
