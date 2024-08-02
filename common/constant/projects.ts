@@ -2,11 +2,11 @@ import { IProjectItem } from '../types/projects'
 
 export const PROJECTS: IProjectItem[] = [
   {
-    id: 13,
+    id: 14,
     title: 'Papua University Academic Information System',
     slug: 'papua-university-academic-information-system',
     description: "Papua University Academic Information System Dashboard.",
-    image: 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1717116420/projects/nop9lsi67x5krlm6cjx3.png',
+    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1722563818/Screenshot_157_oocxoa.png',
     link_demo: null,
     link_github: null,
     stacks: ['Laravel', 'TailwindCSS', 'PHP', 'Next.js', 'TypeScript', 'MySQL'],
@@ -14,7 +14,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false,
   },
   {
-    id: 12,
+    id: 13,
     title: 'Kimroom Store Management System',
     slug: 'kimroom-store-management-system',
     description: "Kimroom Store Management System, Accounting System, Inventory Management System, and Point of Sales.",
@@ -27,19 +27,20 @@ export const PROJECTS: IProjectItem[] = [
     is_other: true
   },
   {
-    id: 11,
-    title: 'Kantor Regional XIV Manokwari',
-    slug: 'kanreg-xiv-manokwari',
-    description: "Kantor Regional XIV Manokwari, a regional government agency in the state of Papua Barat. Built with CodeIgniter and Tailwind CSS.",
-    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1710984623/projects/wgyxlfxenvefwpjtqdsk.png',
+    id: 12,
+    title: 'Store Management System',
+    slug: 'shop-management-system',
+    description: "Store Management System, Accounting System, and Inventory Management System",
+    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1722562669/Screenshot_154_avndps.png',
     link_demo: null,
     link_github: null,
-    stacks: ['CodeIgniter', 'TailwindCSS', 'Bootstrap', 'PHP', 'JavaScript', 'MySQL'],
+    stacks: ['Laravel', 'Bootstrap', 'PHP', 'JavaScript', 'MySQL'],
     is_show: true,
-    is_featured: false
+    is_featured: false,
+    is_other: true
   },
   {
-    id: 10,
+    id: 11,
     title: 'Hekku Top Up',
     slug: 'hekku-top-up',
     description: "Top Up Game built with Next.Js and Tailwind CSS.",
@@ -52,7 +53,7 @@ export const PROJECTS: IProjectItem[] = [
     is_own: true
   },
   {
-    id: 9,
+    id: 10,
     title: 'Kris Store',
     slug: 'kris-store',
     description: "eCommerce Template built with Next.Js and Tailwind CSS based on Figma Community Design, fully responsive ( https://www.figma.com/file/yuxyGBsdwKSZ9jzYkNhQ9I/Figma-ecommerce-UI-Kit-(web-%26-mobile)-(Community) ).",
@@ -65,7 +66,7 @@ export const PROJECTS: IProjectItem[] = [
     is_own: true
   },
   {
-    id: 8,
+    id: 9,
     title: 'KrisCommerce Template',
     slug: 'kriscommerce-template',
     description: "eCommerce Template built with Next.Js and Tailwind CSS based on Figma Community Design ( Electon - https://www.figma.com/file/BdcRd5HaNmHsKmronOVfyX/e-commerce-(Community) ).",
@@ -78,11 +79,11 @@ export const PROJECTS: IProjectItem[] = [
     is_own: true
   },
   {
-    id: 7,
+    id: 8,
     title: 'Nanojastip',
     slug: 'nanojastip',
     description: "Parcel Delivery Service in the city of Manokwari.",
-    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1700894594/projects/q5rzqzbzeof9uqe6nlxh.png',
+    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1722563609/Screenshot_155_vwjqtc.png',
     link_demo: null,
     link_github: null,
     stacks: ['Laravel', 'PHP', 'JavaScript', 'Bootstrap', 'MySQL'],
@@ -90,7 +91,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false
   },
   {
-    id: 6,
+    id: 7,
     title: 'Simama Wondama',
     slug: 'simama-wondama',
     description: "The Civil Servant Management Information System of Wondama.",
@@ -102,7 +103,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false
   },
   {
-    id: 5,
+    id: 6,
     title: 'BPBD Sorsel',
     slug: 'bpbd-sorsel',
     description: "Natural Disaster Information System of the South Sorong District Disaster Management Agency (BPBD).",
@@ -114,7 +115,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false
   },
   {
-    id: 4,
+    id: 5,
     title: 'Simasku Manokwari',
     slug: 'simasku-manokwari',
     description: "The Human Resources Information System of Manokwari Regency.",
@@ -126,7 +127,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false
   },
   {
-    id: 3,
+    id: 4,
     title: 'Yayasan Anak Yatim',
     slug: 'yayasan-anak-yatim',
     description: "The Information Website of Ikhsan Al Mauun Orphanage Foundation in the City of Manokwari.",
@@ -138,7 +139,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false
   },
   {
-    id: 2,
+    id: 3,
     title: 'SISBPAK',
     slug: 'sisbpak',
     description: "The Information System for the Academic Planning and Student Affairs Office at Papua University.",
@@ -150,7 +151,7 @@ export const PROJECTS: IProjectItem[] = [
     is_featured: false
   },
   {
-    id: 1,
+    id: 2,
     title: 'SBPSIA & IJMSIA',
     slug: 'sbpsia-ijmsia',
     description: "Pharmacy Management System PT. Sinar Bintang Papua & PT. Irman Jaya Martabe",
@@ -161,5 +162,18 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
     is_featured: false,
     is_other: true
+  },
+  {
+    id: 1,
+    title: 'Kriskurniawan.my.id',
+    slug: 'kriskurniawan-my-id',
+    description: "Personal Portfolio Website",
+    image: 'https://res.cloudinary.com/dgaf5rmnv/image/upload/v1702940643/projects/pux2za5mfm18sbs3snw0.png',
+    link_demo: 'https://kriskurniawan.my.id',
+    link_github: 'https://github.com/kriskurniawan/kriskurniawan.my.id',
+    stacks: ['Next.js', 'TypeScript', 'TailwindCSS', 'Prisma'],
+    is_show: true,
+    is_featured: true,
+    is_other: false
   }
 ]
